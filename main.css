@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/xo\ game.jpg);
+    background-size: cover;
+}
+.game-box{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    margin: 100px 0;
+    padding: 20px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.game{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+}
+
+.title{
+    background-color: #f25;
+    padding: 20px 0;
+    margin: 10px 0;
+    width: 385px;
+    font-size: 40px;
+}
+.square{
+    width: 125px;
+    height: 125px;
+    background-color: #f25;
+  margin: 2px;
+  font-size: 70px;
+  font-weight: 500;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+cursor: pointer;
+}
+.square:hover{
+    background-color: black;}
+
+button{
+width: 150px;
+height: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+background-color: #f25;
+border-radius: 5px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+}
